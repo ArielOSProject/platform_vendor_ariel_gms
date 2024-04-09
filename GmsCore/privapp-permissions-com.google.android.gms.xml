@@ -16,5 +16,6 @@
         <permission name="android.permission.NETWORK_SCAN" fixed="true"/>
         <permission name="android.permission.UPDATE_DEVICE_STATS" fixed="true"/>
         <permission name="android.permission.WATCH_APPOPS" fixed="true"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" fixed="true"/>
     </privapp-permissions>
 </permissions>
