@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="com.google.android.gms">
-        <!-- for restrictive signature spoofing, where the permission is "signature|privileged" -->
-        <permission name="android.permission.FAKE_PACKAGE_SIGNATURE"/>
-
         <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
         <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
@@ -17,5 +14,6 @@
         <permission name="android.permission.UPDATE_DEVICE_STATS" fixed="true"/>
         <permission name="android.permission.WATCH_APPOPS" fixed="true"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" fixed="true"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" fixed="true"/>
     </privapp-permissions>
 </permissions>
